@@ -1,0 +1,314 @@
+body {
+    background: none;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+#background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Title Styling */
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; 
+    font-size: 2rem; 
+    color: #5a5a5a; 
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.829);
+    border: none;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    padding: 10px 20px -5px 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: -5px; 
+    margin-right: -5px; 
+}
+
+
+.input-group {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.911);
+    margin-bottom: 10px;
+}
+
+.input-group .form-control {
+    border: none;
+    background: transparent;
+    color: #000;
+    padding: 8px;
+    padding-left: 16px; 
+    flex-grow: 1;
+}
+
+.input-group:focus-within {
+    border: 1px solid rgba(0, 123, 255, 0.5); 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+.input-group .form-control:focus {
+    outline: none; 
+    box-shadow: none; 
+    border: none; 
+}
+
+.input-group .form-control::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.input-group {
+    border: 1px solid rgba(0, 123, 255, 0.5);
+    border-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+#search-btn {
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    height: 42px; 
+    width: 42px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; 
+    padding: 0; 
+    position: relative; 
+    left: -2px; 
+}
+
+#search-btn .fas {
+    font-size: 1rem; 
+    color: #fff;
+}
+
+.weather-icon {
+    font-size: 36px;
+    margin-bottom: 0;
+    margin-top: -5px;
+}
+
+.temperature {
+    font-size: 24px;
+    margin-top: -5px; 
+    margin-bottom: 5px; 
+    line-height: 1; 
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.additional-info {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.additional-info p {
+    margin-bottom: 2px;
+}
+
+.forecast-day {
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.forecast-day img {
+    width: 40px;
+}
+
+.forecast-day .description {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.temp-range {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.temp-range .temp-max,
+.temp-range .temp-min {
+    margin: 0;
+    font-weight: normal;
+}
+
+.temp-range .temp-max {
+    font-size: 0.9em;
+}
+
+.temp-range .temp-min {
+    font-size: 0.9em;
+    color: #333;
+}
+
+/* Gradient button styling */
+.gradient-btn {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    border: none;
+    color: rgb(0, 94, 176);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+.gradient-btn:hover {
+    background: linear-gradient(to right, #c2e9fb, #a1c4fd);
+}
+
+/* Additional styling for the back button */
+#back-button {
+    margin-top: 10px;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group .form-control {
+    flex-grow: 1;
+}
+
+.input-group .gradient-btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#search-btn .fas {
+    color: rgb(0, 94, 176);
+}
+
+/* Footer styling */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    padding: 5px; /* Reduced padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer .text-muted {
+    color: #000;
+}
+
+.footer .text-muted a,
+.footer .text-muted .creator-name {
+    color: rgb(42, 96, 154);
+    text-decoration: none;
+}
+
+.footer .text-muted a:hover {
+    text-decoration: underline;
+}
+
+/* Modal styling */
+.modal-content {
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.modal-header,
+.modal-body {
+    color: #000;
+    text-align: center;
+}
+
+/* New close button styles */
+.close-btn {
+    background-color: #f35666c0;
+    border: none;
+    border-radius: 50%; 
+    width: 32px; 
+    height: 32px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+    font-size: 1.4rem; 
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.close-btn::before {
+    content: "\f00d"; 
+}
+
+.close-btn:hover {
+    background-color: #ee273bd6; 
+    transform: scale(1.1); 
+}
+
+.close-btn:focus {
+    box-shadow: none; 
+}
+
+.modal-body p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.modal-body .d-flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-body .d-flex a {
+    color: inherit;
+    margin: 0 10px;
+}
+
+.modal-body .d-flex i {
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.modal-body .d-flex a:hover i {
+    color: #007bff;
+}
