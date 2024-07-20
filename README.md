@@ -15,8 +15,6 @@ Welcome to the Global Weather Tracker, a responsive and user-friendly weather ap
 - **Weather Information**: Displays temperature, humidity, wind speed, and weather conditions.
 - **Forecast Information**: Provides a 5-day weather forecast with detailed daily weather conditions.
 - **Responsive Design**: Ensures optimal user experience across various devices.
-- **About Modal**: Includes creator information and links to social profiles.
-- **Custom Background**: Features a visually appealing background image.
 
 ## Technologies Used
 
