@@ -1,6 +1,6 @@
 # Global Weather Tracker
 
-![Global Weather Tracker](images/default.jpg)
+![Global Weather Tracker](images/demo.png)
 
 ## Overview
 
