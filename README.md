@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Global Weather Tracker, a responsive and user-friendly weather application that provides current weather information and a 5-day forecast for any city around the globe. This application is designed to deliver accurate weather updates and forecasts to help you plan your day effectively.
+Welcome to the Global Weather Tracker, a responsive and user-friendly weather application that provides current weather information and a 5-day forecast for any city around the globe. This application is designed to deliver accurate weather updates and forecasts.
 
 [Live Demo](https://sankeerthini.github.io/Global-Weather-Tracker/)
 
